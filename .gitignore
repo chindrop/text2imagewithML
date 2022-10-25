@@ -1,0 +1,127 @@
+# Byte-compiled, optimized, and DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cache
+.cache
+.pytest_cache/
+.webassets-cache
+.mypy_cache/
+
+# C extensions:
+*.so
+
+# C/C++ Production directory
+/build
+*/build
+
+# Documentation
+/site
+docs/_build/
+
+# Distribution and packaging:
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment & packaging
+.python-version
+.venv
+env/
+venv/
+venv.bak/
+/node_modules
+node_modules/
+*/node_modules/*
+frontend/node_modules/*
+**node_modules
+/.pnp
+.pnp.js
+
+# PyInstaller
+*.manifest
+*.spec
+
+# PyBuilder
+target/
+
+# Log files
+pip-log.txt
+pip-delete-this-directory.txt
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Unit test and coverage reports:
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+coverage/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Translations:
+*.mo
+*.pot
+
+# Database-related
+*.sqlite3
+postgres-data
+
+# Scrapy
+.scrapy
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Celery
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments (dotenv file)
+.env
+test.env
+dev.env
+prod.env
+ENV/
+env.bak/
+prod_env/
+dev_env/
+test_env/
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Project settings
+local_settings.py
+instance/
+.spyderproject
+.spyproject
+.ropeproject
+
+# Code editor
+.idea/
+.vscode/
